@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"><head>
+  <title>Category Management</title>
+</head>
+<link rel="stylesheet" th:href="@{/css/style.css}" />
+
+<body>
+<header th:replace=" ~{/layout/header :: header}"></header>
+<div layout:fragment="content"></div>
+<footer th:replace="~{layout/footer :: footer}"></footer>
+</body>
+</html>
